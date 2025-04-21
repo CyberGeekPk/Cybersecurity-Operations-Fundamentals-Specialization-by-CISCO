@@ -27,3 +27,11 @@ After an attack, take the following actions:
 - Determine the scope of the attack
 - Contain the threat and remediate the infected host
 - Minimize the risk of re-infection
+
+## Goal of a SOC
+
+- A threat-centric SOC can proactively hunt for malicious threats on networks. New threats can be discovered through recently identified vulnerabilities, threat intelligence gathering services, and reported observations detailing malicious anomalies across targeted industry segments. 
+
+- A compliance-based SOC can focus on evaluating the compliance posture of network systems to confirm they adhere to industry-recommended device configuration templates and standardized system builds. This type of compliance monitoring detects unauthorized configuration changes that reveal existing configuration problems that may lead to a security breach. 
+
+- Operational-based SOCs are tasked with monitoring the security posture of an organization’s internal network. Tiers 2 and 3 SOC analysts in operational-based SOCs will research, develop, and operationalize complex detection techniques that are tailored for an organization’s specific network environment.
