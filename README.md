@@ -4,3 +4,6 @@ This specilization tagets career in Cybersecurity Operations and prepare basic s
 
 Here are the Complete Course Notes which I took along the journey, lets get started.
 
+## Course 1 : Security Operations Center (SOC)
+
+- [Module 1: Introduction to Security Operations Center](Course1_SOC/module1.md)
