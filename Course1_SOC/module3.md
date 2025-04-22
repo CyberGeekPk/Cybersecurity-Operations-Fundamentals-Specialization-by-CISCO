@@ -32,3 +32,57 @@ Linking the risk management and incident response practices of an organization t
 ### Operational-Based SOC
 
 An operational-based SOC is an internally focused organization that is tasked with monitoring the security posture of an organization’s internal network. Tiers 2 and 3 analysts that work in these SOCs research, develop, and operationalize complex detection techniques that are tailored for an organization's specific network environment. Tier 2 analysts may develop highly customized regular expression (REGEX)-based search strings. Tier 1 SOC analysts are commonly tasked with deploying these customized REGEX-based expressions into the organization’s security information and event management (SIEM) analytic solution. An operational-based SOC is focused on maintaining the operational integrity of the identity management and access policies, intrusion detection system rules, and the administration of firewall access control list (ACL) rules. The Computer Security Incident Response Team (CSIRT) is the most technically accurate term that describes an operational-based SOC.
+
+## SOC Models and Their Consumers
+
+- ## Internal SOC
+
+On-site, fully administered by organization
+
+### Pros
+
+- Best visibility
+- Exclusive data management
+- Most customizable
+- Dedicated in-house staff
+
+### Cons
+
+- Most expensive
+- Most difficult to recruit and retain talent
+- Slowest implementation
+- Cost $$$
+
+- ## Virtual SOC
+
+Contracted service
+
+### Pros
+
+- Least expensive
+- Quickest implementation
+- Most flexible and saleable
+
+### Cons
+
+- Least visibility
+- Third-party data management
+- Least customizable
+- Cost $
+
+- ## Hybrid SOC
+
+Combination of internal and virtual
+
+### Pros
+
+- Quickest detection and response
+- Most secure (extra pair of eyes)
+- Knowledge share between internal SOC and third party
+
+### Cons
+
+- Costly in long term
+- Additional hardware required
+- Third-party data management
+- Cost $$
