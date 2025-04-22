@@ -1,4 +1,14 @@
-# SOC Roles
+# Staffing an Effective SOC Team 
+
+This course will help you to understand about
+
+- Staff that work in SOC and their personnel roles and titles
+- Describe the necessary skills to work in a SOC
+- Describe the role of each SOC member in general and in the context of incidence response
+- Describe the skill set of each SOC member and their toolkit components
+- Describe the interactions of SOC members with each other and external entities in the context of incidence response
+
+## SOC Roles
 
 The following figure presents a high-level view of the potential job  roles that are necessary for a SOC. For example, an entry-level analyst  would most likely perform initial triage for alerts that are generated  from a security information and event management tool (SIEM) or an IT  service management (ITSM) ticketing system. After determining that an  alert requires further investigation (based on the SOC’s policies and  workflow procedures), an analyst might escalate the alert to the  investigation team to analyze. The investigation team might collect data  from available tools and perform event correlation on the data to  identify any patterns or relationships. If they determine that more  analysis is necessary, they escalate the alert to a senior member of the  team.  
 
