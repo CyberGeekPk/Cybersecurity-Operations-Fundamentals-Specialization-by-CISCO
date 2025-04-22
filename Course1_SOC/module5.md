@@ -51,3 +51,34 @@ Transaction data highlights operations  that occur as a result of network sessio
 
 Each  log file contains transaction data. Note that there is not a one-to-one  relationship between session data and transaction data. An individual  network session might not produce any transactions or might be  associated with several transactions. Transactions can also document  local activities on a system that do not involve network communications.
 
+## Extracted Content
+
+Artifacts that are mined from network  traffic are considered extracted content. Such content includes, for  example, files that are transmitted as email attachments or files that  are downloaded from a website. Some security monitoring systems pull  extracted content from live network streams. With other security  monitoring systems, you can mine the extracted content from full packet  capture (PCAP) files. The artifacts may also be smaller pieces of data,  such as particular strings defined by an analyst query.
+
+Artifacts that may be extracted include the following: 
+
+- Sessions: Session  data about all network connections, including the standard IP 5-tuple,  time stamp of the session start, and frame number within the PCAP where  the session starts.
+- DNS: Transaction data documenting all DNS requests and replies.
+- Hosts: All  IP addresses that are seen in the PCAP along with other relevant  information that can be gleaned from the PCAP. Potential information  includes DNS hostnames, open TCP ports, operating system, sessions that  are associated with the host, and total packet and byte counts that are  associated with the host.
+
+## Statistical Data
+
+Statistical data aggregates other  security monitoring data types. This action aids in describing network  activities at a higher level. Statistical data is used to baseline  network traffic activity. 
+
+NetFlow  session data documents each individual connection to a web server. A  graph can be produced using NetFlow session data that shows the average  number of connections per minute to the web server over a period of a  month, The graph is considered statistical data that can be used to  formulate a monthly report identifying baseline network traffic activity  to and from the web server. Baseline data queries document the  aggregate normal network traffic patterns and their trends. Comparing  actual traffic patterns to the baseline patterns can reveal anomalous  behavior. Two common statistical data queries are baseline graphs and  top reports.
+
+Top reports can answer questions such as the following:
+
+- Which hosts request the most HTTP data?
+- Which hosts serve the most HTTP data?
+- Which DNS domains are the most requested?
+
+## Alert Data
+
+Alert data is the most formed of the  data types. Alert data is generally produced by an IDS or IPS system.  These systems use complex mechanisms and data sources to monitor traffic  streams for malicious behavior. Alert data is generated when network  traffic or some other type of data matches a set of rules that are  configured in a tool. The greatest benefit of alert data is that it is  created after the tool analyzes large sets of data that otherwise must  be analyzed manually by a SOC analyst.
+
+Despite  being the most formed data type, alert data is not necessarily the most  accurate or most relevant data type. The alert is a judgment call that  is produced by a tool. False positives and false negatives are potential  issues with alert data. The advantage of alert data is that the tool  can process tremendous amounts of network traffic in real time. It is  faster than a human analyst could ever be. However, the production of an  alert is often only the start of the analysis. SOC analysts are the  primary recipients of this type of data and must analyze it to judge its  disposition. The SOC analyst determines whether the alert is a false or  true positive.
+
+## External Data
+
+External data consists of information from outside the organization.  External data is knowledge and information about existing or emerging  threats that an organization can use to proactively respond to those  threats. This knowledge is based on the analysis of input data that is  collected from various internal and external sources. For an  organization to be aware of the latest threats, it must subscribe to  threat intelligence feeds. Threat actors are constantly making  improvements to their malware to avoid detection. Therefore, the SOC  must make constant improvements to the threat detection systems,  including creating and refining rules and signatures or adding new  detection capabilities. Intelligence feeds help the organization to  proactively defend against attacks. SOC analysts incorporate actionable  data from the feeds into indicators of compromise (IoCs) and artifacts  that improve the fidelity of the alerts and provide greater context. 
