@@ -4,3 +4,8 @@
 - Identify tools for performing data collection and analysis activities and how they complement each other
 - Describe SOC relevant data and security event data
 - Describe SOC tools and their features
+
+## Module Objectives
+
+- Describe SOC relevant data and security event data
+- Describe SOC tools and their features
