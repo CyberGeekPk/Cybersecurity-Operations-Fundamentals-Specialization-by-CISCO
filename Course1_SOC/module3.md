@@ -22,3 +22,13 @@ After an attack, the following actions should be taken:
 - Determine the scope of the attack
 - Contain the threat and remediate the infected host
 - Minimize the risk of reinfection
+
+### Compliance-Based SOC
+
+A compliance-based SOC is focused on comparing the compliance posture of network systems to reference configuration templates and standard system builds. This type of monitoring detects unauthorized changes and existing configuration problems that may lead to a security breach. Typically, such issues cannot be identified by common security tools, such as vulnerability scanners, unless the configuration problem is actively exploited. The best time to identify potential security issues within the network is certainly not during an exploit.
+
+Linking the risk management and incident response practices of an organization to an automated system compliance process is key to a successful compliance-based SOC. There could be circumstances in which an industry requirement mandates standards-based security practices, such as continuously evaluating against benchmarks established by the Center of Internet Security (CIS) or meeting PCI DSS 2.0 compliance.
+
+### Operational-Based SOC
+
+An operational-based SOC is an internally focused organization that is tasked with monitoring the security posture of an organization’s internal network. Tiers 2 and 3 analysts that work in these SOCs research, develop, and operationalize complex detection techniques that are tailored for an organization's specific network environment. Tier 2 analysts may develop highly customized regular expression (REGEX)-based search strings. Tier 1 SOC analysts are commonly tasked with deploying these customized REGEX-based expressions into the organization’s security information and event management (SIEM) analytic solution. An operational-based SOC is focused on maintaining the operational integrity of the identity management and access policies, intrusion detection system rules, and the administration of firewall access control list (ACL) rules. The Computer Security Incident Response Team (CSIRT) is the most technically accurate term that describes an operational-based SOC.
