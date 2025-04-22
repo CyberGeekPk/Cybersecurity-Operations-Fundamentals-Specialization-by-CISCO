@@ -86,3 +86,9 @@ Combination of internal and virtual
 - Additional hardware required
 - Third-party data management
 - Cost $$
+
+## Module Summary
+
+You now know about the variety of SOC types and deployment models. A SOC is categorized as threat-centric, compliance-based or operational-based, with characteristics that include incident response, adherence to standards, and asset protection, among others. 
+
+SOCs can be deployed in multiple ways, including dedicated, virtual, and hybrid. The optimal deployment will depend on the unique requirements of the organization. What SOC deployment type does your organization or learning institution employ?
