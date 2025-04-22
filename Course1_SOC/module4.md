@@ -92,3 +92,7 @@ After an incident is resolved, the SOC begins its recovery phase. They work clos
 - Consider using a SOC 2 audit report to show organizational and legal compliance.
 - Generate multiple reports that will serve as lessons learned for future SOC incident response activities.
 
+## Wrap Up
+
+You now know the roles and responsibilities of the prominent SOC team members. And you know the interactions between these members based on an incident response activity that you analyzed. Each soc analyst member has multiple roles and responsibilities and interacts with the other team members in multiple ways based on the responsibility they're carrying out. 
+A good example of this, is incidents response procedures. We encourage you to consider your online work activities and determine how you can help the soc improve your company's security posture. And now that you are better versed in the roles and responsibilities of each soc member, you now may have a clear view of what soc role may be appropriate for you now and in the future.
