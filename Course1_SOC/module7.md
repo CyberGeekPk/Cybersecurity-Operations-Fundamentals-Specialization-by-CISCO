@@ -53,3 +53,33 @@ The security control has not acted, because there was no malicious activity, whi
 
 - ### True positive: 
 The security control acted as a consequence of malicious activity, which represents normal and optimal operation.
+
+## SOC Metrics
+
+Today, most enterprises spend more than US$100 billion annually on cybersecurity tools, processes, and people, but history has proven that spending does not always mean secured outcomes. An effective threat-centric SOC consists of deep expertise with cutting-edge technology, leading security intelligence data, and advanced analytics to detect and investigate threats with great speed, accuracy, and focus.
+
+- Speed: Faster detection and targeted mitigation reduce the mean time to respond.
+- Focus: Higher fidelity reduces false positives and ensures proper containment and actionable recommendations for remediation.
+- Accuracy: Continuous monitoring and investigation plus full packet capture illuminate security blind spots.T
+
+### Reasons to use metrics to define and measure SOC effectiveness include the following:
+
+Typically, the job of the CSO is to find the appropriate reporting model for measuring and reporting the effectiveness of the SOC operations and value that fits the organization. The different metrics that are used to measure the SOC should be as specific, measurable, attainable, relevant, and timely as possible. Metrics is a group of measurements that produce a quantitative picture of something over time.  
+
+Over time and as SOC operations mature, the mean time to detect should begin to trend downward, as shown in the figure. A continued decrease in the TTD is a direct correlation of a successful and mature SOC. It may be years before the metric shows success; the SOC does not mature overnight.  
+
+Typical SOC metrics that demonstrate the SOC's value to the business may include:
+
+- The mean TTD of the incident after its occurrence
+- The mean time to contain the incident after its detection
+- The mean time to mitigate the incident after its containment
+- The number of incidents being detected, contained, and mitigated
+- The percentage of the discovered incidents found using the plays in the SOC playbook
+- The number of new plays added to the SOC playbook
+- The number of zero-day attack detections
+- The false positive or true positive detection rate
+- The operational cost of running the SOC
+
+Regarding the timeline of the incident, the following figure is another linear approach to measuring the incident response process. The example includes the critical metrics that business decision-makers are most concerned with. The time to report the incident is also included in the dwell time.
+
+In conclusion, metrics are imperative to the success of any SOC organization. Metrics allow leadership to make decisions that are based on data and facts, and allow for the removal of emotion and anecdotes from critical decision-making processes. By implementing a SOC that is built around the metrics, the leadership will be able to show the maturation of the organization and processes, pinpoint areas of focus for process improvement, identify gaps in prevention, and detection and operational capabilities. An organization without a metrics program will open up the possibilities to misdirect spending and ultimately, when dealing with APT, these decisions can lead to substantial impact. As the SOC analyst, your work should help the SOC to achieve its desired metrics.  
