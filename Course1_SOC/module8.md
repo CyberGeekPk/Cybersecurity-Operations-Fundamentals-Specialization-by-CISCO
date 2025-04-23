@@ -34,3 +34,17 @@ NOTE: The term WMS can identify this type of system implementation in any enviro
 ![image](https://github.com/user-attachments/assets/97f8f4e7-1cb2-402c-ad16-0096b7125b1f)
 
 After a ticket has been created or SIEM has identified an incident, the Tier 1 analyst has collected supporting evidence, and a higher-level tier analyst has confirmed that it is an incident, the security WMS gets involved.
+
+## Workflow Types
+
+A SOC uses workflows to coordinate tasks between people and synchronize data between different systems, with the ultimate goal of improving SOC efficiency and responsiveness.
+
+There are three types of workflows:
+
+Sequential: A sequential workflow is typically flow chart-based. It progresses from one stage to the next and does not step backward.
+
+State machine: A state machine workflow progresses from state to state. It is more complex and can return to a previous point if required.
+
+Rules-driven: Implementation of a rules-driven workflow is based on a sequential workflow. The rules dictate the progress of the workflow.
+
+A workflow can be described simply as the ordered execution of tasks through a well-defined and structured process. Workflows can be a sequential progression of work activities or a complex set of processes each taking place concurrently and eventually affecting each other according to a set of rules and roles. The WMS defines and controls the various tasks and activities that are associated with a process. In addition, many management systems can also measure and analyze the execution of the process so that continuous improvements can be made. The SOC management team develops the workflow model that implements the standardized operating procedures for the incident handling process. The workflow model guides the SOC analysts through the triage and response procedures. 
