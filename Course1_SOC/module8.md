@@ -90,3 +90,89 @@ Manages resources to include personnel, budget, shift scheduling, and technology
 - ### Executive
 
 Provides overall direction of the SOC; ensures that the SOC is achieving and maintaining the objectives that have been defined
+
+## SOC WMS Integration Overeview
+
+The traditional, manual processes that SOCs  currently use to perform remediation have left security teams  struggling to keep up with an ever-increasing volume of work. The WMS is  the latest technology in the SOC environment, specifically concerning  remediation. The primary mission of the WMS is to remediate an incident  autonomously, so the WMS needs to receive security events and alerts  information from SIEM and then push information or commands to security  devices. The security device then executes a procedure or configuration  to either remediate or contain some malicious action.
+
+Processes and workflows under the SOC responsibilities may include the following:
+
+- Cybersecurity incident management
+- Vulnerability management
+- Threat intelligence and hunting
+- Network security monitoring and detection
+- Governance and compliance management
+- Physical security and physical threat management
+
+## SOC WMS Integration
+
+To improve efficiency of SOC operations, the WMS is also typically integrated with SIEM, IT operations ticketing management system, and other security controls.
+
+Most WMSs also integrate with other systems that are used by the organization. Integration provides structure to a process that employs several otherwise independent systems. For example, an optimum WMS for the SOC may take events from SIEM, correlate those events, and create a ticket for the SOC analyst to process. That process would be executed in a workflow that can be defined for the particular event. Some tasks may also be automated to improve efficiency and consistency. 
+
+## WMS Integration Approaches
+
+Many methods are available to integrate WMS within a SOC. The most common method is by using APIs. APIs are a system of tools and resources in an operating system, enabling developers to create software applications. WMSs can also use frameworks such as TAXII for integration.
+
+- ### RESTful API:
+A RESTful API uses HTTP requests to get, put, post, and delete data. REST, which is used by browsers, can be thought of as the language of the Internet. WMS can use RESTful APIs to retrieve and send information across the upstream and downstream tools that they integrate with. For example, a WMS may use RESTful API to update a corporate enterprise ticket management system. Similarly, the WMS may use this API to update its own workflow, based on the information that is passed back from the enterprise ticket management system.
+
+- ### Command-line API:
+Command-line APIs are similar to RESTful APIs. The primary difference is that command-line APIs are run directly from the command line. WMS can use command-line APIs to execute one-time or ad hoc commands and retrieve a specific set of information. For example, a WMS may use command-line APIs to query a SIEM tool with the SOC in order to check on the status of a particular use case, and confirm if the use case is still considered live or if it has been taken back for rebuild or test.
+
+- ### TAXII:
+A free and open transport mechanism, TAXII standardizes the automated exchange of cyber threat information. Based on the discrete use of the WMS, where a WMS is required to make decisions that are based on specific threat intelligence or conditions, a WMS can apply the industry recognized framework, TAXII, to retrieve and exchange information that relates to a particular threat or group of threats.
+
+## SOC Workflow Automation Example
+
+SOC today is changing, and the need for automation is becoming mission-critical. As organizations grow or mature their security capabilities, the need for a more automated SOC operation becomes ever more evident. The diverse set of operational security functions, processes, and departments justify the need of a centralized and coordinated SOC. Managing security defenses and incident response through a program of orchestration and automation allows businesses to optimize the effectiveness and operating speed of the SOC. Today, many companies require specialized, automated tools to meet regulatory obligations in case of a serious information security incident.
+
+Automation is the process of making the tools and machines execute repeatable actions without human intervention. Orchestration is the utilization of automating these tasks to complete the workflow. Reducing the time that is needed to perform redundant tasks, such as logging in to multiple device consoles and other manual tasks, gives security analysts more time to focus on what matters: collaborating and making informed decisions to contain, remediate, and recover from a security incident.
+
+By incorporating sophisticated and progressive technology for security automation, businesses can realize critical advantages, such as:
+
+- More effectively manage the security incidents with faster response times while being consistent in the response capabilities, and reducing the risk of human error.
+- Allow the SOC to evolve the playbook to deal with recurring and unique events.
+- Allow the SOC analysts to focus on the issues that truly require human critical-thinking skills.
+- Eliminate manual efforts, resulting in time savings and reduced labor costs.
+- Reduce the time to detection, containment, and remediation.
+
+More complex analysis may not lend itself well to automation—for example, when the investigation process involves disparate data sources or data across incompatible tools. For most plays in the playbook, eventually, an analyst may need to review the resulting data output from the play, which is no different than any other security monitoring approach. SIEM, log management, or other security solutions may still require some human analysis and critical thinking.
+
+## SOC Workflow for an Alert
+
+The following shows a sample workflow for an alert that was initially received by a SOC Tier 1 analyst. Each level of the SOC workflow can be divided into several subtasks. For example, the following tasks are assigned to the SOC Tier 1 analyst after a SIEM alert is received:
+
+- Open a case in ticketing system.
+- Look up user details in user directory to obtain name, location, email, and manager.
+- Look up the user hostname and IP address.
+- Look up the IP address in the threat intel platform to get context (threat intel source, related threats, and reputation score).
+- Collect the user proxy traffic report and assigns to case.
+- Collect user packet captures for analysis and assigns to case.
+- Review user traffic history with threat intel to understand the context and to determine the potential threat impact.
+- Assign severity and priority.
+- Escalate the event to Tier 2 for investigation.
+
+Note: While many of the tasks within the workflow can be automated, some tasks may need to be performed manually. For example, reviewing user traffic history with threat intel to understand the context and determining the potential threat impact may be manual tasks that are performed by the Tier 1 SOC analyst.
+
+The following tasks are performed by a Tier 2 SOC analyst after escalation from a SOC Tier 1 analyst:
+
+- Review threat intelligence.
+- Review packet captures to determine if an exploit was deployed.
+- Query endpoint for indicators of compromise.
+- Execute endpoint log collection and memory dump.
+- Determine whether to contain an infected host.
+- Execute containment.
+- Add artifacts of evidence collection to case and updates case details.
+- Notify SOC Tier 3 and management.
+
+The SOC Tier 3 forensics and incident handler performs these tasks:
+
+- Send technical support to remediate machine (reimage and extract malicious content).
+- Extract new indicators and sends to threat intel platform.
+- Provide context and threat summary for update in threat intel platform.
+- Update case details and closes case.
+
+Management does the following:
+
+- Collect summary and statistics on the case (time to detect, time to contain, time to resolve, and time to close).
