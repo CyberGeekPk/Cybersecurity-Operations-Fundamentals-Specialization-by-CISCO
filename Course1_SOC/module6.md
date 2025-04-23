@@ -24,3 +24,20 @@ https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
 https://www.first.org/standards/frameworks/csirts/csirt_services_framework_v2.1
 
 You  will now learn who these stakeholders are, their responsibilities in  the context of incident response, and how they interact with the SOC.
+
+## Internal Stakeholders
+
+Although the SOC team members are highly  skilled cybersecurity professionals, they must engage personnel in the  organization’s other departments to carry out their incident response  efforts. These personnel are known as internal stakeholders. They  provide the necessary expertise and guidance during an incident  response.
+
+Internal stakeholders range  from human resources to legal department personnel. It is important for  you to learn how to identify the internal stakeholders. It is also  important to look at their responsibilities and interactions with the  SOC team during an incident response. You will need to consider the  rules of engagement that the SOC will use when seeking their assistance.  The organization will have to define the information escalation process  that will be followed during an incident response by following the  established incident management communication plan.
+
+- Executive Management Team (Corporate/
+C-Level Exec)
+- Incident Response Team Manager
+- Incident Response Technical Lead
+- Information Technology (Network Security Engineer)
+- Governance, Risk and Compliance (GRC) Group
+- Legal Council
+- Public Relations Affairs and Media Relations
+- Help Desk
+
