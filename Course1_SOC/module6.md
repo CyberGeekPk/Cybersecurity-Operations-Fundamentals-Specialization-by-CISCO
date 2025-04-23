@@ -51,3 +51,9 @@ An organization might be obligated to divulge information to certain  external b
 - Law Enforcemen
 - Incident Reporter
 - Software Vendors
+
+## Wrap-Up
+
+You can now identify the organization’s  internal and external stakeholders and their roles and responsibilities  that relate to the SOC’s incident response activities. You know why and  how they interact with the SOC team. You also know the rules of  engagement that the SOC uses when interacting with them. The following  document is a valuable reference for organizations that are interested  in improving their incident management communication plan.
+
+https://resources.sei.cmu.edu/asset_files/Handbook/2021_002_001_651819.pdf
