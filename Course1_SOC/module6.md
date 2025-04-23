@@ -41,3 +41,13 @@ C-Level Exec)
 - Public Relations Affairs and Media Relations
 - Help Desk
 
+## External Stakeholders
+
+An organization might be obligated to divulge information to certain  external bodies, more commonly known as external stakeholders, when a  cybersecurity incident occurs. It’s important for the organization to  build relationships and to establish effective practices for  communicating with external stakeholders. Cybercrime incidents are  always unplanned and cannot be predicted. Therefore, incident management  communication often occurs quickly and unexpectedly and the  organization must predetermine the appropriate information to share with  each external stakeholder before an incident. During the first phase of  the incident response, the organization engages with their computer  security incident response team (CSIRT). The organization assigns a  point of contact (POC) to interact with external stakeholders. The POC  and incident response team must follow the organization’s policies and  guidelines for interacting with external stakeholders. The  organization’s legal department must also be consulted before  information is shared with external stakeholders.  
+
+- Cloud Providers
+- Other Response Team (same vertical)
+- Media
+- Law Enforcemen
+- Incident Reporter
+- Software Vendors
