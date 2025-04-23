@@ -11,3 +11,4 @@ Here are the Complete Course Notes which I took along the journey, lets get star
 - [Module 3: SOC Deployment Models & Types](Course1_SOC/module3.md)
 - [Module 4: Staffing an Effective SOC Team](Course1_SOC/module4.md)
 - [Module 5: Security Events Data & SOC Analyst Tools](Course1_SOC/module5.md)
+- [Module 6: Developing Key Relationships with Internal & External Stakeholders](Course1_SOC/module6.md)
