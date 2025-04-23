@@ -176,3 +176,16 @@ The SOC Tier 3 forensics and incident handler performs these tasks:
 Management does the following:
 
 - Collect summary and statistics on the case (time to detect, time to contain, time to resolve, and time to close).
+
+## WMS Products
+
+Many SOC WMS (or SOAR) products and vendors focus on providing specific functionalities around automating workflows for the SOC. SOC WMS (or SOAR) vendors include the following:
+
+- Cisco SecureX
+- Cisco CloudCenter Action Orchestrator (simplifies workflow creation using a drag and drop workflow designer)
+- CyberSponse
+- IBM Resilient Systems
+- Proofpoint Threat Response
+- Swimlane
+
+Orchestration and automation can help a SOC analyst to operate more efficiently. 
