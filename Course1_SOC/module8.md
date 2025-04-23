@@ -41,10 +41,52 @@ A SOC uses workflows to coordinate tasks between people and synchronize data bet
 
 There are three types of workflows:
 
-Sequential: A sequential workflow is typically flow chart-based. It progresses from one stage to the next and does not step backward.
-
-State machine: A state machine workflow progresses from state to state. It is more complex and can return to a previous point if required.
-
-Rules-driven: Implementation of a rules-driven workflow is based on a sequential workflow. The rules dictate the progress of the workflow.
+- Sequential: A sequential workflow is typically flow chart-based. It progresses from one stage to the next and does not step backward.
+- State machine: A state machine workflow progresses from state to state. It is more complex and can return to a previous point if required.
+- Rules-driven: Implementation of a rules-driven workflow is based on a sequential workflow. The rules dictate the progress of the workflow.
 
 A workflow can be described simply as the ordered execution of tasks through a well-defined and structured process. Workflows can be a sequential progression of work activities or a complex set of processes each taking place concurrently and eventually affecting each other according to a set of rules and roles. The WMS defines and controls the various tasks and activities that are associated with a process. In addition, many management systems can also measure and analyze the execution of the process so that continuous improvements can be made. The SOC management team develops the workflow model that implements the standardized operating procedures for the incident handling process. The workflow model guides the SOC analysts through the triage and response procedures. 
+
+## Incident Response Workflow
+
+Maintaining consistency within an incident response process is very important. A defined incident response process articulates how a particular incident is to be handled based on its severity. The key to a sound and robust incident response process is to ensure that all incident severity levels have a defined response process. Also, as an incident is handled, the severity of that incident may change over time. The severity of an incident may be lowered, particularly when an incident is being monitored after remediation. The incident response process should have appropriate procedures in place to identify how an incident should be handled when the severity of the incident is changed from one level to another. 
+
+During an incident response, it is also important to ensure consistent and timely reporting. Each incident severity type would have defined times for notification, constant reporting until an incident is remediated, and monitoring and reporting on the incident after remediation. At times, incident investigators are responsible for the consistent and timely reporting of an incident. As staff work shifts end, these activities are usually handed off to the person on the next shift. Because of the manual nature of this involvement, there are opportunities for investigators to miss reporting targets.
+
+A SOC WMS can automate these types of activities, reducing manual intervention within the incident response process and in ensuring consistent and timely reporting. A SOC WMS can also generate alerts when a certain reporting period is passed, to inform the investigators or confirm if the report for that time period has been acted on.
+
+## Incident Response Workflow Roles
+
+Within a SOC, there are varying degrees of specialized individuals who are highly trained in the functions that they perform. The figure presents a conceptual overview of the SOC workflow that is focused on the different roles. Organizations will customize their workflow, which is based on their particular situation.
+
+![image](https://github.com/user-attachments/assets/30e17e84-c28b-456a-b775-8dae8d25cdd2)
+
+Depending on how the particular SOC is organized, various tiers of security analysts and teams may be involved in the workflow. For example, security analysts may be more involved in the detect and triage stages, while the CSIRT team members may be more involved in the respond stage. Each organization may embed a different variation of a SOC. The following roles would often be found within a SOC:
+
+- ### Tier 1 analyst
+
+Continuously monitors the alert queue; triages security alerts; monitors health of security sensors and endpoints; collects data and context necessary to initiate Tier 2 work
+
+- ### Tier 2 analyst
+
+Performs deep-dive incident analysis by correlating data from various sources; determines if a critical system or data set has been affected; advises on remediation; provides support for new analytic methods for detecting threats
+
+- ### Incident response handler
+
+Manages the incident; executes containment strategies and ensures that the incident response process is followed throughout; at times, may also communicate with the business to provide periodic updates
+
+- ### Forensics specialists
+
+Focused on gathering, retaining, and analyzing computer-related data for investigative purposes, in a manner that maintains the integrity of the data
+
+- ### Malware reverse engineering specialists
+
+Analyze the malware behaviors in depth to determine the relevant tactics, techniques, and procedures, and the indicators of compromise. May also write signatures to detect, hunt, and prevent the malware
+
+- ### SOC management
+
+Manages resources to include personnel, budget, shift scheduling, and technology strategy to meet SLAs; communicates with management; serves as the organizational point person for business-critical incidents
+
+- ### Executive
+
+Provides overall direction of the SOC; ensures that the SOC is achieving and maintaining the objectives that have been defined
